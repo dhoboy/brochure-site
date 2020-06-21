@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brochure-site/static/css/main.a1ecaf14.chunk.css",
+    "main.css": "/brochure-site/static/css/main.10265c82.chunk.css",
     "main.js": "/brochure-site/static/js/main.5f5deabb.chunk.js",
     "main.js.map": "/brochure-site/static/js/main.5f5deabb.chunk.js.map",
     "runtime-main.js": "/brochure-site/static/js/runtime-main.5499c815.js",
@@ -8,9 +8,9 @@
     "static/js/2.fa8a6499.chunk.js": "/brochure-site/static/js/2.fa8a6499.chunk.js",
     "static/js/2.fa8a6499.chunk.js.map": "/brochure-site/static/js/2.fa8a6499.chunk.js.map",
     "index.html": "/brochure-site/index.html",
-    "precache-manifest.a50431e486ee7510cf04b4e171a7c3d0.js": "/brochure-site/precache-manifest.a50431e486ee7510cf04b4e171a7c3d0.js",
+    "precache-manifest.3315e6944735cb6a64d223b120b24613.js": "/brochure-site/precache-manifest.3315e6944735cb6a64d223b120b24613.js",
     "service-worker.js": "/brochure-site/service-worker.js",
-    "static/css/main.a1ecaf14.chunk.css.map": "/brochure-site/static/css/main.a1ecaf14.chunk.css.map",
+    "static/css/main.10265c82.chunk.css.map": "/brochure-site/static/css/main.10265c82.chunk.css.map",
     "static/js/2.fa8a6499.chunk.js.LICENSE.txt": "/brochure-site/static/js/2.fa8a6499.chunk.js.LICENSE.txt",
     "static/media/Drew_Grasty.jpg": "/brochure-site/static/media/Drew_Grasty.b68d3265.jpg",
     "static/media/Pouring.jpg": "/brochure-site/static/media/Pouring.31b90b23.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5499c815.js",
     "static/js/2.fa8a6499.chunk.js",
-    "static/css/main.a1ecaf14.chunk.css",
+    "static/css/main.10265c82.chunk.css",
     "static/js/main.5f5deabb.chunk.js"
   ]
 }
