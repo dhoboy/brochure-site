@@ -1,0 +1,37 @@
+.header {
+  cursor: default;
+  text-align: center;
+  h1 {
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 0px;
+    letter-spacing: 0.3em;
+  }
+  h2 {
+    margin-top: 0px;
+    padding-bottom: 10px;
+    color: $gray-black;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $gray;
+    
+    p:first-child {
+      span:first-child {
+        padding: 0 3px;
+      }
+      span:last-child {
+        font-weight: 700;
+        color: $gray;
+      }
+    }
+
+    p:last-child {
+      span {
+        padding: 0 10px;
+        border-right: 2px solid $gray;
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+}

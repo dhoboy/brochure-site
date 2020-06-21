@@ -1,0 +1,23 @@
+.how-it-works {
+  display: flex;
+  .photo {
+    width: 1000px;
+    height: 550px;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center center;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 15px;
+    span {
+      display: block;
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0px;;
+      }
+    }
+  }
+}

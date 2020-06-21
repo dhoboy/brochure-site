@@ -1,0 +1,10 @@
+.main-content {
+  height: calc(100vh - 210px);
+  min-height: 550px;
+  display: flex;
+  justify-content: space-between;
+
+  .page {
+    width: 70%;
+  }
+}

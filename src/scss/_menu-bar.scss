@@ -1,0 +1,19 @@
+.menu-bar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+
+  .menu-bar-item {
+    font-weight: 400;
+    padding: 20px 20px 20px 10px;
+    text-decoration: none;
+    color: $gray-black;
+    font-size: 24px;
+    &:hover {
+      font-weight: 700;
+    }
+    &.current {
+      font-weight: 700;
+    }
+  }
+}
