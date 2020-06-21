@@ -1,6 +1,5 @@
 import React from 'react';
-import { Router } from "react-router-dom";
-import history from './history';
+import { HashRouter } from "react-router-dom";
 import Header from './components/Header';
 import MenuBar from './components/MenuBar';
 import AppRoutes from './AppRoutes';
@@ -9,7 +8,7 @@ import './scss/app.scss';
 
 const App = () => {
   return (
-    <Router history={history}>
+    <HashRouter hashType="noslash" basename={'drew-grasty'}>
       <div id="brochure-site">
         <Header />
         <div className="main-content">
@@ -20,7 +19,7 @@ const App = () => {
         </div>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

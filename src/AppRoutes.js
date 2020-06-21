@@ -13,6 +13,11 @@ const AppRoutes = () => {
         path="/"
         render={routeProps => <Redirect {...routeProps} to="/home" />}
       />
+      <Route
+        exact
+        path="/brochure-site/"
+        render={routeProps => <Redirect {...routeProps} to="/home" />}
+      />
       <Route 
         path="/home"
         render={routeProps => <Home { ...routeProps} />}
