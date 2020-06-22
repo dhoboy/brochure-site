@@ -4,6 +4,12 @@
     height: 550px;
     border-radius: 2px;
     background-size: cover;
-    background-position: center center;
+    background-position: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .home .photo {
+    background-position: center;
   }
 }
