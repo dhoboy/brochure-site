@@ -1,16 +1,18 @@
 .main-content {
-  height: calc(100vh - 230px);
-  min-height: 550px;
   display: flex;
   justify-content: center;
 
   .page {
-    width: 65%;
+    width: 73%;
+    font-size: 14px;
   }
 }
 
 @media (min-width: 768px) {
   .main-content {
     justify-content: space-between;
+    .page {
+      width: 65%;
+    }
   }
 }

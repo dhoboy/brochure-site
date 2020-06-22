@@ -7,7 +7,7 @@ const MenuBar = () => {
       <MenuBarItem display="Home" path="/home" />
       <MenuBarItem display="How It Works" path="/how-it-works" />
       <MenuBarItem display="Contact" path="/contact" />
-      <MenuBarItem display="Testimonials" path="/testimonials" />
+      <MenuBarItem display="Testimonial" path="/testimonials" />
     </div>
   );
 };

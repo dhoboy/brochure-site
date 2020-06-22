@@ -10,11 +10,13 @@ const App = () => {
   return (
     <HashRouter hashType="noslash" basename={'drew-grasty'}>
       <div id="brochure-site">
-        <Header />
-        <div className="main-content">
-          <MenuBar />
-          <div className="page">
-            <AppRoutes />
+        <div>
+          <Header />
+          <div className="main-content">
+             <MenuBar />
+            <div className="page">
+              <AppRoutes />
+            </div>
           </div>
         </div>
         <Footer />

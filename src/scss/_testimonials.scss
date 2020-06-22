@@ -1,9 +1,19 @@
 .testimonials {
+  overflow-y: scroll;
   p {
     padding: 15px;
     span {
       display: block;
       padding: 0px 10px 10px 10px;
     }
+    span:last-child {
+      font-style: italic;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    font-size: 16px;
   }
 }

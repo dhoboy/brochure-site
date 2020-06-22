@@ -1,5 +1,6 @@
 .how-it-works {
   display: flex;
+  overflow-y: scroll;
   .photo {
     width: 1000px;
     height: 550px;
@@ -19,5 +20,11 @@
         margin-bottom: 0px;;
       }
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .how-it-works {
+    font-size: 16px;
   }
 }

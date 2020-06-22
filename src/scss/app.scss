@@ -7,23 +7,28 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  font-size: 16px;
+  font-size: 14px;
   background-color: #fff;
 
   #brochure-site {
-    margin: 30px auto 0;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 800px;
     $gray: #aaa;
     $gray-black: #333;
 
     h1 {
-      font-size: 34px;
+      margin: 0px;
+      font-size: 24px;
       font-weight: 700;
       text-transform: uppercase;
     }
 
     h2 {
-      font-size: 14px;
+      font-size: 12px;
     }
 
     p {
