@@ -2,13 +2,13 @@
   cursor: default;
   text-align: center;
   h1 {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 5px 20px;
     margin-bottom: 0px;
     letter-spacing: 0.3em;
   }
   h2 {
     margin-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     color: $gray-black;
     display: flex;
     justify-content: center;
@@ -32,6 +32,18 @@
           border-right: none;
         }
       }
+    }
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .header {
+    h1 {
+      padding: 20px 20px 10px 20px;
+    }
+    h2 {
+      padding-bottom: 15px;
     }
   }
 }

@@ -2,9 +2,15 @@
   height: calc(100vh - 230px);
   min-height: 550px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   .page {
-    width: 70%;
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    justify-content: space-between;
   }
 }

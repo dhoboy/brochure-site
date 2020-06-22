@@ -17,13 +17,13 @@ html {
     $gray-black: #333;
 
     h1 {
-      font-size: 48px;
+      font-size: 34px;
       font-weight: 700;
       text-transform: uppercase;
     }
 
     h2 {
-      font-size: 18px;
+      font-size: 14px;
     }
 
     p {
@@ -38,5 +38,18 @@ html {
     @import './testimonials';
     @import './contact';
     @import './footer';
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    #brochure-site {
+      h1 {
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
   }
 }
